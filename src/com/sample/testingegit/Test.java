@@ -14,5 +14,6 @@ public class Test  extends Activity {
         Button button = new Button(this);
         button.setText("OK");
         setContentView(button);
-    }
+		int i = 1;
+	}
 }
