@@ -10,9 +10,9 @@ public class Test  extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        int j = 2;
         Button button = new Button(this);
         button.setText("OK");
         setContentView(button);
-        int i = 2;
     }
 }
