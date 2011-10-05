@@ -14,5 +14,6 @@ public class Test  extends Activity {
         button.setText("OK");
         setContentView(button);
 		int i = 1;
+		i++;
 	}
 }
