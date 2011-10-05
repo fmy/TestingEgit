@@ -11,6 +11,7 @@ public class Test  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         int j = 2;
+        j++;
         Button button = new Button(this);
         button.setText("OK");
         setContentView(button);
