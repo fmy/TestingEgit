@@ -13,5 +13,6 @@ public class TestingEgitActivity extends Activity {
         Button button = new Button(this);
         button.setText("OK");
         setContentView(button);
+        button.setWidth(200);
     }
 }
