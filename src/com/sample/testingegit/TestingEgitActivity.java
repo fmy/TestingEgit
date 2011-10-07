@@ -14,5 +14,6 @@ public class TestingEgitActivity extends Activity {
         button.setText("OK");
         setContentView(button);
         button.setWidth(200);
+        int i = 1;
     }
 }
